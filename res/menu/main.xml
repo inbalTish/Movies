@@ -1,0 +1,17 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/option_menu_exit"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:icon="@android:drawable/ic_menu_close_clear_cancel"
+        android:title="@string/exit"/>
+    
+    <item
+        android:id="@+id/option_menu_clearList"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:icon="@android:drawable/ic_menu_delete"
+        android:title="@string/clear_list"/>
+
+</menu>

@@ -1,0 +1,50 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--
+        Base application theme, dependent on API level. This theme is replaced
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+    -->
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+    
+    
+    <style name="movieLayoutStyle">
+        <item name="android:background">@color/white_smoke</item>
+    </style>
+  
+    <style name="Activity_Title">
+        <item name="android:textColor">@color/asparagus</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:typeface">serif</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="Activity_SubTitle">
+        <item name="android:textColor">@color/bazaar</item>
+        <item name="android:textSize">13sp</item>
+        <item name="android:typeface">serif</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="InputBox_Title">
+        <item name="android:textColor">@color/dark_pink</item>
+        <item name="android:textSize">13sp</item>
+        <item name="android:typeface">normal</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+    <style name="InputBox_Texts" parent="@android:style/Widget.EditText">
+        <item name="android:textColorHint">@color/ashGrey</item>
+        <item name="android:textSize">13sp</item>
+        <item name="android:typeface">normal</item>
+        <item name="android:textColor">@color/dark_lava</item>
+    </style>
+    
+</resources>

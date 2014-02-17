@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <string name="app_name">סרטים</string>
+    <string name="action_settings">הגדרות</string>
+    <string name="add_movie">הוספת סרט</string>
+    <string name="how2Add_dialog">איך להוסיף סרט</string>
+    <string name="deleteMovie_dialog">מחיקת סרט</string>
+    <string name="my_movies">הסרטים שלי</string>
+    <string name="movie_list">רשימת סרטים</string>
+    <string name="edit_movie">עריכת סרט</string>
+    <string name="enter_movie_details">:הכנס את פרטי הסרט</string>
+    <string name="search_movie">חפש סרט</string>
+    <string name="choose_movie">:בחר סרט</string>
+    <string name="movie_title">שם</string>
+    <string name="wached">נצפה</string>
+    <string name="movie_description">תיאור</string>
+    <string name="load_movie_picture">:טען תמונת הסרט</string>
+    <string name="url">URL</string>
+    <string name="show">הצג</string>
+    <string name="search">:חפש</string>
+    <string name="find">מצא</string>
+    <string name="OK">OK</string>
+    <string name="cancel">ביטול</string>
+    <string name="save">שמור</string>
+    <string name="clear_list">מחק רשימה</string>
+    <string name="exit">יציאה</string>
+    <string name="rate">דירוג</string>
+    <string name="manually">ידנית</string>
+    <string name="internet">אינטרנט</string>
+    <string name="empty_list">הרשימה ריקה</string>
+    <string name="delete">מחק</string>
+    <string name="delete_movie">מחק סרט</string>
+    
+</resources>

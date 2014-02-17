@@ -1,0 +1,109 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/white_smoke"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="10dp"
+    tools:context=".MainActivity" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/txtListTitle"
+            style="@style/Activity_SubTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:text="@string/my_movies" />
+
+        <TextView
+            android:id="@+id/txtMainActivityTitle"
+            style="@style/Activity_Title"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="top"
+            android:layout_weight="2"
+            android:gravity="center"
+            android:paddingRight="@dimen/activity_horizontal_margin"
+            android:text="@string/movie_list" />
+
+        <ImageButton
+            android:id="@+id/imageButtonSettingsMain"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:contentDescription="@string/action_settings"
+            android:src="@drawable/services_icon" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="@dimen/activity_vertical_margin" >
+
+            <TextView
+                android:id="@+id/txtCheckBoxListHeader"
+                style="@style/InputBox_Title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/wached" />
+
+            <TextView
+                android:id="@+id/txtMovieTitleListHeader"
+                style="@style/InputBox_Title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/movie_title" />
+
+            <TextView
+                android:id="@+id/txtRateListHeader"
+                style="@style/InputBox_Title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.40"
+                android:text="@string/rate" />
+        </LinearLayout>
+
+        <ListView
+            android:id="@+id/listMyMovies"
+            android:layout_width="match_parent"
+            android:layout_height="260dp"
+            android:descendantFocusability="beforeDescendants"
+            android:overScrollMode="ifContentScrolls"
+            android:scrollbarAlwaysDrawVerticalTrack="true" >
+        </ListView>
+
+        <TextView
+            android:id="@+android:id/empty"
+            android:layout_width="wrap_content"
+            android:layout_height="250dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:text="@string/empty_list"
+            android:textColor="@color/alizarin"
+            android:typeface="serif" />
+
+    </LinearLayout>
+
+    <ImageButton
+        android:id="@+id/imageButtonAddMovie"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_gravity="bottom|center_horizontal"
+        android:layout_weight="3"
+        android:contentDescription="@string/add_movie"
+        android:src="@drawable/add" />
+
+</LinearLayout>
